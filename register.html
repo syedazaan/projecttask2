@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>User Screen</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</head>
+<body>
+  
+<div class="container-fluid" id="bgm">
+      <div class="row">
+        <div class="col-sm-12 col-md-4"></div>
+        <div class="col-sm-12 col-md-4" id="login">
+          <div class="card">
+            <div class="card-body">
+              <form name="login-form" action="">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" class="form-control" id="name" name="name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email" name="email">
+                </div>
+                <div class="form-group">
+                  <label for="city">City:</label>
+                  <input type="file" class="form-control" id="city" name="city">
+                </div>
+                <div class="form-group">
+                  <input type="file" class="form-control" id="customFile">
+                </div>
+                <div class="form-group">
+                  <span id="err-msg"></span>
+                </div>
+                <div align="right">
+                  <a href="index.html">Login</a>
+                </div>
+                <button type="submit" class="btn btn-primary register">Register</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
